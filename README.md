@@ -1,6 +1,6 @@
 # OliveSky - Weather Dashboard Learning Project
-
-A browser-only mini SaaS-style weather dashboard built with HTML, CSS and JavaScript.
+This is a project that can enable a user to access the weather of different places making it easier to 
+arrange your activities of the day and an outfit to wear.
 
 ## Features
 - Home page with links to the other screens.
