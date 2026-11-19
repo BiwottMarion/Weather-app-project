@@ -37,4 +37,4 @@ An internet connection is required for the weather API and Google Fonts.
 - Try the app while offline to see the connection error.
 - Sign up with two different demo accounts and save different places to each.
 - Sign out and sign in again to check that each account sees only its own saved places.
-- If something does not appear, press F12 and check the browser Console tab for errors.
+
