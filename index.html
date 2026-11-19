@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="OliveSky - a simple weather dashboard project.">
+  <title>OliveSky | Weather Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#/">
+        <span class="brand-mark">O</span>
+        <span>Olive<span class="brand-gold">Sky</span><small>WEATHER, MADE SIMPLE</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#/" data-nav>Home</a>
+        <a href="#/dashboard" data-nav>Dashboard</a>
+        <a href="#/saved" data-nav>Saved places</a>
+        <a href="#/about" data-nav>About</a>
+      </nav>
+      <div class="account-area">
+        <span id="welcomeText" class="welcome-text">Welcome, guest</span>
+        <button id="accountButton" class="button button-outline button-small">Sign in</button>
+      </div>
+      <button id="menuButton" class="menu-button" aria-label="Open navigation">☰</button>
+    </header>
+
+    <main id="app" class="page-content" aria-live="polite">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">A CLEARER VIEW OF YOUR DAY</p>
+          <h1>Make every day<br><span>a little brighter.</span></h1>
+          <p class="hero-description">A calm, simple weather dashboard that helps you check the forecast, explore places and keep the locations that matter to you.</p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="#/dashboard">Explore dashboard <span>→</span></a>
+            <a class="text-link" href="#/about">How it works</a>
+          </div>
+          <div class="hero-note"><span class="status-dot"></span> Live weather information from Open-Meteo</div>
+        </div>
+        <div class="hero-art" aria-label="Decorative weather illustration">
+          <div class="sun"></div>
+          <div class="cloud cloud-one"></div>
+          <div class="cloud cloud-two"></div>
+          <div class="art-label"><span>☀</span><div><strong>Fresh perspective</strong><small>One forecast at a time</small></div></div>
+          <div class="art-ring"></div>
+        </div>
+      </section>
+
+      <section class="feature-strip">
+        <article><span class="feature-icon">⌕</span><div><h3>Explore places</h3><p>Search for a town or city.</p></div></article>
+        <article><span class="feature-icon">☼</span><div><h3>Live forecasts</h3><p>Fetch current weather details.</p></div></article>
+        <article><span class="feature-icon">♡</span><div><h3>Keep favourites</h3><p>Save places to your account.</p></div></article>
+      </section>
+      <section class="home-bottom">
+        <div><p class="eyebrow">BUILT FOR LEARNING</p><h2>Small steps.<br>Useful features.</h2></div>
+        <p>OliveSky is a browser-based learning project. It brings together HTML structure, CSS styling, JavaScript screens, account demonstrations, browser storage and an external weather API.</p>
+        <a class="button button-dark" href="#/about">View project details</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© 2026 OliveSky</span>
+      <a href="#/about">Project notes</a>
+    </footer>
+  </div>
+
+  <div id="modalRoot"></div>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>

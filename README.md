@@ -1,0 +1,46 @@
+# OliveSky - Weather Dashboard Learning Project
+
+A browser-only mini SaaS-style weather dashboard built with HTML, CSS and JavaScript.
+
+## Features
+- Home page with links to the other screens.
+- Hash-based navigation: Home, Dashboard, Saved Places and About.
+- Demo sign-up, sign-in and sign-out.
+- Search a town or city using the Open-Meteo geocoding API.
+- Fetch current weather from the Open-Meteo forecast API.
+- Loading, connection and API response error messages.
+- Save and remove favourite places for the signed-in demo account.
+- Each user's saved places are stored under a browser-storage key containing that user's ID.
+- One document-level click listener handles dynamic buttons.
+- Form submission uses `event.preventDefault()` to stop unwanted page reloads.
+- User-entered text is escaped before it is inserted into the page.
+- Responsive olive green, gold and dark blue design.
+
+## Run the project
+1. Extract the ZIP folder.
+2. Open the folder in Visual Studio Code.
+3. Open `index.html` in a browser. For best results, use the VS Code Live Server extension and open the page through `http://localhost`.
+4. Go to Dashboard and search for a city such as Nairobi, Mombasa or Nakuru.
+5. Create a demo account to save a location.
+
+An internet connection is required for the weather API and Google Fonts.
+
+## Files
+- `index.html` - page structure and shared header/footer.
+- `styles.css` - colours, layout, decorative elements and responsive design.
+- `script.js` - routing, demo accounts, per-user storage and API calls.
+
+## Testing checklist
+- Search for a city that exists.
+- Search for a name that does not exist.
+- Submit the search form and check that the page does not reload.
+- Try the app while offline to see the connection error.
+- Sign up with two different demo accounts and save different places to each.
+- Sign out and sign in again to check that each account sees only its own saved places.
+- If something does not appear, press F12 and check the browser Console tab for errors.
+
+## Important learning note
+This is a front-end demonstration, not secure production SaaS authentication. Demo account information is stored in the current browser's localStorage. A user can inspect or change browser storage and frontend code, so this must never be used for real passwords or sensitive information.
+
+A real SaaS needs a backend server and a database (for example MySQL or PostgreSQL). The server must manage passwords securely, sessions, access rules and subscription plans. Do not put database passwords or secret keys in frontend code.
+
