@@ -1,6 +1,6 @@
 # OliveSky - Weather Dashboard Learning Project
-
-A browser-only mini SaaS-style weather dashboard built with HTML, CSS and JavaScript.
+This is a project that can enable a user to access the weather of different places making it easier to 
+arrange your activities of the day and an outfit to wear.
 
 ## Features
 - Home page with links to the other screens.
@@ -16,15 +16,6 @@ A browser-only mini SaaS-style weather dashboard built with HTML, CSS and JavaSc
 - User-entered text is escaped before it is inserted into the page.
 - Responsive olive green, gold and dark blue design.
 
-## Run the project
-1. Extract the ZIP folder.
-2. Open the folder in Visual Studio Code.
-3. Open `index.html` in a browser. For best results, use the VS Code Live Server extension and open the page through `http://localhost`.
-4. Go to Dashboard and search for a city such as Nairobi, Mombasa or Nakuru.
-5. Create a demo account to save a location.
-
-An internet connection is required for the weather API and Google Fonts.
-
 ## Files
 - `index.html` - page structure and shared header/footer.
 - `styles.css` - colours, layout, decorative elements and responsive design.
@@ -37,10 +28,3 @@ An internet connection is required for the weather API and Google Fonts.
 - Try the app while offline to see the connection error.
 - Sign up with two different demo accounts and save different places to each.
 - Sign out and sign in again to check that each account sees only its own saved places.
-- If something does not appear, press F12 and check the browser Console tab for errors.
-
-## Important learning note
-This is a front-end demonstration, not secure production SaaS authentication. Demo account information is stored in the current browser's localStorage. A user can inspect or change browser storage and frontend code, so this must never be used for real passwords or sensitive information.
-
-A real SaaS needs a backend server and a database (for example MySQL or PostgreSQL). The server must manage passwords securely, sessions, access rules and subscription plans. Do not put database passwords or secret keys in frontend code.
-
