@@ -35,7 +35,7 @@ button { cursor: pointer; }
 .account-area { display: flex; align-items: center; gap: 13px; }
 .welcome-text { color: var(--muted); font-size: 12px; }
 .button { border: 0; border-radius: 8px; display: inline-flex; align-items: center; justify-content: center; gap: 12px; padding: 13px 19px; font-weight: 700; font-size: 13px; transition: .2s ease; }
-.button:hover { transform: translateY(-2px); filter: brightness(1.04); }
+.button:hover { transform: translateX(1.5px) translateY(-2px); filter: brightness(1.04); }
 .button-gold { background: var(--gold); color: var(--navy); box-shadow: 0 8px 18px rgba(215,173,75,.23); }
 .button-dark { background: var(--navy); color: white; }
 .button-outline { border: 1px solid #cbd2c1; color: var(--olive-dark); background: transparent; }
