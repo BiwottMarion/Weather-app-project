@@ -38,9 +38,3 @@ An internet connection is required for the weather API and Google Fonts.
 - Sign up with two different demo accounts and save different places to each.
 - Sign out and sign in again to check that each account sees only its own saved places.
 - If something does not appear, press F12 and check the browser Console tab for errors.
-
-## Important learning note
-This is a front-end demonstration, not secure production SaaS authentication. Demo account information is stored in the current browser's localStorage. A user can inspect or change browser storage and frontend code, so this must never be used for real passwords or sensitive information.
-
-A real SaaS needs a backend server and a database (for example MySQL or PostgreSQL). The server must manage passwords securely, sessions, access rules and subscription plans. Do not put database passwords or secret keys in frontend code.
-
