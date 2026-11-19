@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 # OliveSky - Weather Dashboard Learning Project
 This is a project that can enable a user to access the weather of different places making it easier to 
 arrange your activities of the day and an outfit to wear.
@@ -38,6 +37,5 @@ An internet connection is required for the weather API and Google Fonts.
 - Submit the search form and check that the page does not reload.
 - Try the app while offline to see the connection error.
 - Sign up with two different demo accounts and save different places to each.
-- Sign out and sign in again to check that each account sees only its own saved places.
+- Sign out and sign in again to check that each account sees only its own saved places
 
->>>>>>> c4be236656f9a87c3a62c143ae0b856b937cc62d
