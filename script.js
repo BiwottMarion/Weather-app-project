@@ -1,5 +1,3 @@
-// OliveSky - simple weather dashboard JavaScript
-
 const app = document.getElementById("app");
 const modalRoot = document.getElementById("modalRoot");
 const toast = document.getElementById("toast");
